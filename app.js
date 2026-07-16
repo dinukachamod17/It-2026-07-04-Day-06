@@ -102,9 +102,39 @@ let heading = document.getElementById("heading")
 //     heading.innerText = "dinuka"+(number+5)
 // }
 
-function changeHeading(){
-   let txtInput = document.getElementById("inputText")
-   heading.innerText = (txtInput.value)
-    console.log(txtInput.value);
+// function changeHeading(){
+//    let txtInput = document.getElementById("inputText")
+//    heading.innerText = (txtInput.value)
+//     console.log(txtInput.value);
+    
+// }
+
+// function changeHheading(){
+//     document.getElementById()
+//     myHeading.innerText = ("lakshan")
+//     console.log("clicked");
+    
+// }
+
+
+function sum(){
+   let val1= document.getElementById("inputText01").value
+   let val2= document.getElementById("inputText02").value
+
+   let sum = Number(val1) + Number(val2)
+   heading.innerText = (sum)
+
+    console.log(sum);
+    
+}
+
+function subtraction(){
+    let val1 = document.getElementById("inputText01").value
+    let val2 = document.getElementById("inputText02").value
+
+    let Difference = Number(val1) - Number(val2)
+    heading.innerText = (Difference)
+
+    console.log(Difference);
     
 }
