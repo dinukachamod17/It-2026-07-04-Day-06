@@ -84,21 +84,27 @@ let heading = document.getElementById("heading")
 //heading.innerText = "dinuka"
 
 
-let number = 0
-function increaseValue() {
-    heading.innerText = "dinuka"+(++number)
+// let number = 0
+// function increaseValue() {
+//     heading.innerText = "dinuka"+(++number)
 
-    console.log("clicked");
+//     console.log("clicked");
+    
+// }
+
+// function decreaseValue() {
+//     heading.innerText = "dinuka"+(--number)
+
+    
+// }
+
+// function changeNumber(){
+//     heading.innerText = "dinuka"+(number+5)
+// }
+
+function changeHeading(){
+   let txtInput = document.getElementById("inputText")
+   heading.innerText = (txtInput.value)
+    console.log(txtInput.value);
     
 }
-
-function decreaseValue() {
-    heading.innerText = "dinuka"+(--number)
-
-    
-}
-
-function changeNumber(){
-    heading.innerText = "dinuka"+(number+5)
-}
-
