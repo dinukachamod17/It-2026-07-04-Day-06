@@ -138,3 +138,28 @@ function subtraction(){
     console.log(Difference);
     
 }
+
+//===================================================================
+
+
+function multiplication(){
+    let value03 = document.getElementById("inputText03").value
+    let value04 = document.getElementById("inputText04").value
+
+    let multiplication =Number(value03) * Number(value04)
+    myHeading.innerText = (multiplication)
+
+    console.log(multiplication);
+    
+}
+
+function division(){
+    let value03 = document.getElementById("inputText03").value
+    let value04 = document.getElementById("inputText04").value
+
+    let division =Number(value03) / Number(value04)
+    myHeading.innerText = (division)
+
+    console.log(division);
+    
+}
