@@ -122,7 +122,7 @@ function sum(){
    let val2= document.getElementById("inputText02").value
 
    let sum = Number(val1) + Number(val2)
-   heading.innerText = (sum)
+   heading.innerText = "sum :"+sum
 
     console.log(sum);
     
@@ -133,7 +133,7 @@ function subtraction(){
     let val2 = document.getElementById("inputText02").value
 
     let Difference = Number(val1) - Number(val2)
-    heading.innerText = (Difference)
+    heading.innerText = "Difference : "+Difference
 
     console.log(Difference);
     
@@ -163,3 +163,4 @@ function division(){
     console.log(division);
     
 }
+
