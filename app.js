@@ -117,50 +117,85 @@ let heading = document.getElementById("heading")
 // }
 
 
-function sum(){
-   let val1= document.getElementById("inputText01").value
-   let val2= document.getElementById("inputText02").value
+// function sum(){
+//    let val1= document.getElementById("inputText01").value
+//    let val2= document.getElementById("inputText02").value
 
-   let sum = Number(val1) + Number(val2)
-   heading.innerText = "sum :"+sum
+//    let sum = Number(val1) + Number(val2)
+//    heading.innerText = "sum :"+sum
 
-    console.log(sum);
+//     console.log(sum);
     
-}
+// }
 
-function subtraction(){
-    let val1 = document.getElementById("inputText01").value
-    let val2 = document.getElementById("inputText02").value
+// function subtraction(){
+//     let val1 = document.getElementById("inputText01").value
+//     let val2 = document.getElementById("inputText02").value
 
-    let Difference = Number(val1) - Number(val2)
-    heading.innerText = "Difference : "+Difference
+//     let Difference = Number(val1) - Number(val2)
+//     heading.innerText = "Difference : "+Difference
 
-    console.log(Difference);
+//     console.log(Difference);
     
-}
+// }
 
 //===================================================================
 
 
-function multiplication(){
-    let value03 = document.getElementById("inputText03").value
-    let value04 = document.getElementById("inputText04").value
+// function multiplication(){
+//     let value03 = document.getElementById("inputText03").value
+//     let value04 = document.getElementById("inputText04").value
 
-    let multiplication =Number(value03) * Number(value04)
-    myHeading.innerText = (multiplication)
+//     let multiplication =Number(value03) * Number(value04)
+//     myHeading.innerText = (multiplication)
 
-    console.log(multiplication);
+//     console.log(multiplication);
     
-}
+// }
 
-function division(){
-    let value03 = document.getElementById("inputText03").value
-    let value04 = document.getElementById("inputText04").value
+// function division(){
+//     let value03 = document.getElementById("inputText03").value
+//     let value04 = document.getElementById("inputText04").value
 
-    let division =Number(value03) / Number(value04)
-    myHeading.innerText = (division)
+//     let division =Number(value03) / Number(value04)
+//     myHeading.innerText = (division)
 
-    console.log(division);
+//     console.log(division);
+    
+// }
+
+
+//==============================================================
+
+
+let customerList = []
+
+function btnAddCustomerOnAction(){
+    let txtName = document.getElementById("txtName").value 
+    let txtAddress = document.getElementById("txtAddress").value 
+    let txtAge = document.getElementById("txtAge").value 
+    let txtEmail = document.getElementById("txtEmail").value 
+    let txtSalary = document.getElementById("txtSalary").value 
+
+    // console.log(txtName);
+    // console.log(txtAddress);
+    // console.log(txtAge);
+    // console.log(txtEmail);
+    // console.log(txtSalary);
+
+    let customer = {
+        name:txtName,
+        address:txtAddress,
+        age:txtAge,
+        email:txtEmail,
+        salary:txtSalary
+    }
+    
+    console.log(customer);
+    
+    customerList.push(customer)
+
+    console.log(customerList);
     
 }
 
